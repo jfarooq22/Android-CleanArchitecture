@@ -10,11 +10,12 @@ import com.example.core.domain.repository.Repository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import javax.inject.Inject
 
 class HomeViewModel @ViewModelInject constructor(private val repository: Repository) : BaseViewModel() {
 
     val cityName = "London"
-    val key = "b2b045314b64af5f30eae49ae8378623"
+    val key = "Add Key here"
 
 //    @Inject
 //    lateinit var repository: Repository
